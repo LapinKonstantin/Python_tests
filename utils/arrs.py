@@ -33,7 +33,7 @@ def my_slice(coll, start=None, end=None):
     if start is None:
         normalized_start = 0
     else:
-        normalized_start = start
+        normalized_start = startg
 
     if end is None or end > length:
         normalized_end = length
